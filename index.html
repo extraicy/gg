@@ -9,12 +9,28 @@
   </head>
   <body class="bg-gray-100 text-gray-800">
     <div class="container mx-auto py-6">
-      <header class="text-center">
-        <h1 class="text-2xl font-bold">Crypto Trade Tracker</h1>
+      <header class="text-center mb-8">
+        <h1 class="text-3xl font-bold text-blue-800">Crypto Trade Tracker</h1>
+        <p class="text-lg text-gray-500">Track your trades in real-time</p>
       </header>
-      <main class="mt-4">
-        <div class="bg-white p-4 shadow-md rounded-md">
-          <p class="text-sm">Welcome to your trade tracker.</p>
+      
+      <!-- Main Section for Trade Details -->
+      <main class="bg-white p-6 shadow-lg rounded-md">
+        <h2 class="text-2xl font-semibold text-blue-600 mb-4">Current Trades</h2>
+        <div class="space-y-4">
+          <!-- Example Trade Entry -->
+          <div class="flex justify-between items-center p-4 bg-blue-50 rounded-lg">
+            <p class="text-lg font-medium text-gray-700">Buy: Bitcoin</p>
+            <p class="text-sm text-gray-500">Entry Date: 2024-12-30</p>
+            <p class="text-sm text-green-600">Current Status: Profit</p>
+          </div>
+
+          <!-- Another Example Trade Entry -->
+          <div class="flex justify-between items-center p-4 bg-blue-50 rounded-lg">
+            <p class="text-lg font-medium text-gray-700">Sell: Ethereum</p>
+            <p class="text-sm text-gray-500">Entry Date: 2024-12-28</p>
+            <p class="text-sm text-red-600">Current Status: Loss</p>
+          </div>
         </div>
       </main>
     </div>
